@@ -20,5 +20,4 @@ There may be a situation that the terminal where You run the command `npm run st
 
 Now You are fully ready to test my homework.
 
-This repository is for the codelex homework part 2.
 To know more about this homework, please follow the instructions in the first part: (https://github.com/ArvidsRozitis/18-MD-Simple-RPS-game)
