@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+  mysql1:
+    image: mysql/mysql-server:8.0
+    container_name: rsc
+    restart: always
+    environment:
+      MYSQL_DATABASE: rockPaperScissors
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_HOST: "%"
+    ports:
+      - "3306:3306"
+
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
